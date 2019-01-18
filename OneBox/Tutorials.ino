@@ -11,7 +11,7 @@ char* tutorial_title[]={
   "Test"
   };
 const int tutorials_len = sizeof(tutorial_title)/sizeof(tutorial_title[0]);
-const int vr_min_value = 50;
+const int vr_min_value = 70;
 const int vr_max_value = 255;
 const int vr_value_per_tutorial = (vr_max_value - vr_min_value) / tutorials_len;
 
